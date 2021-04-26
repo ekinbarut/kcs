@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\kcs.Blog.Core\kcs.Blog.Core.csproj" />
+    <ProjectReference Include="..\kcs.Blog.Abstraction\kcs.Blog.Abstraction.csproj" />
+    <ProjectReference Include="..\kcs.Blog.Domain\kcs.Blog.Domain.csproj" />
+    <ProjectReference Include="..\kcs.Blog.Infrastructure\kcs.Blog.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
