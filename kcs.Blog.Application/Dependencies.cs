@@ -1,6 +1,5 @@
 ﻿using FluentValidation;
 using kcs.Blog.Abstraction.Validator;
-using kcs.Blog.Application.ValidationRequestPreProcessor;
 using MediatR;
 using MediatR.Pipeline;
 using Microsoft.Extensions.DependencyInjection;
